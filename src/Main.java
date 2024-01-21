@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         Author firstAuthor = new Author("Joanne", "Rowling");
         Author secondAuthor = new Author("Ernest", "Hemingway");

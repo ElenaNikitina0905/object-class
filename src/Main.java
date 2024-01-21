@@ -9,7 +9,8 @@ public class Main {
 
         secondBook.setPublicationYear(1964);
 
-        System.out.println(firstBook.getAuthor().getFirstName() + " " + firstBook.getAuthor().getLastName() + ", " + firstBook.getTitle() + ", " + firstBook.getPublicationYear());
-        System.out.println(secondBook.getAuthor().getFirstName() + " " + secondBook.getAuthor().getLastName() + ", " + secondBook.getTitle() + ", " + secondBook.getPublicationYear());
+        System.out.println(firstBook);
+        System.out.println(secondBook);
+        System.out.println(firstAuthor.equals(secondAuthor));
     }
 }
